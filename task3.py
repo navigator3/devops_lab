@@ -1,7 +1,6 @@
 s = input("enter text line: ")
-l = s.split()
 t = []
-for i in l:
+for i in s.split():
     t.append(i[::-1])
-print("original text was    : %s " %s)
-print("text after processing: %s " %" ".join(t))
+print("original text was    : %s " % s)
+print("text after processing: %s " % " ".join(t))
