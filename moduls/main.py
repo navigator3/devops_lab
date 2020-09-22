@@ -39,10 +39,6 @@ class Checker:
 """ % (str(time.strftime('%x-%X')), str(self.cpu), str(self.memory), str(self.swap)))
 
 
-def test():
-    print("Go go go")
-
-
 def main():
 
     if args.t == "txt":
