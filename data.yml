@@ -1,0 +1,9 @@
+apache_vhosts:
+- servername: mydomain1.by
+  documentroot: /var/www/mydomain1/html
+  serveradmin: admin1@mydomain1.by
+  directorypath: /
+- servername: mydomain2.by
+  documentroot: /var/www/mydomain2/html
+  serveradmin: admin2@mydomain1.by
+  directorypath: /
