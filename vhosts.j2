@@ -1,7 +1,7 @@
 {% for vhost in apache_vhosts %}<VirtualHost *:80>
     ServerName {{ vhost.servername }}
     DocumentRoot {{ vhost.documentroot }}
-{% if vhost.serveradmin %}  ServerAdmin {{ vhost.serveradmin }}{% endif %}
+{% if vhost.serveradmin %}    ServerAdmin {{ vhost.serveradmin }}{% endif %}
     <Directory "{{ vhost.directorypath }}">
         AllowOverride All
         Options Indexes FollowSymLinks
