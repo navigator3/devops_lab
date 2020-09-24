@@ -1,3 +1,5 @@
+Template was update: added some more info! 
+
 In this progect used module argparse!
 
 So you must enter 2 key when run flask to GitHub connect,
