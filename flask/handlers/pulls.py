@@ -3,7 +3,8 @@ import requests
 
 def connect(state, l, p):
     options = {'state': state, 'per_page': 100}
-    ltext = 'https://api.github.com/repos/alenaPy/devops_lab/pulls?state=all&per_page=100'
+    ltext = 'https://api.github.com/repos/alenaPy/devops_lab/pulls?\
+    +state=all&per_page=100'
     response = requests.get('%s' % ltext, auth=('%s' % l, '%s' % p))
     status = options['state']
     return(process(response.json(), status))

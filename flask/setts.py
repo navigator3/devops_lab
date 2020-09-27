@@ -30,8 +30,7 @@ json = [
         'state': 'closed',
         'labels': [],
         'url': 'https://github.com/link4'
-    }
-    ]
+    }]
 json_open2 = [{'j': '1',
                'num': 1,
                'title': 'json1',
@@ -45,8 +44,7 @@ json_open = [
         'title': 'json1',
         'state': 'open',
         'link': 'https://github.com/link1'
-    }
-    ]
+    }]
 json_accepted = [
     {
         'j': '1',
@@ -54,8 +52,7 @@ json_accepted = [
         'title': 'json2',
         'state': 'accepted',
         'link': 'https://github.com/link2'
-    }
-    ]
+    }]
 json_needs_work = [
     {
         'j': '1',
@@ -63,8 +60,7 @@ json_needs_work = [
         'title': 'json3',
         'state': 'needs work',
         'link': 'https://github.com/link3'
-    }
-    ]
+    }]
 json_closed = [
     {
         'j': '1',
@@ -72,5 +68,4 @@ json_closed = [
         'title': 'json4',
         'state': 'closed',
         'link': 'https://github.com/link4'
-    }
-    ]
+    }]
